@@ -4,3 +4,6 @@ https://mikhail2107.github.io/review_1/
 https://mikhail2107.github.io/review_1/menu.html
 # review_1.5
 https://mikhail2107.github.io/review_1/Brands.html
+# review_1.6
+https://mikhail2107.github.io/review_1/feedback.html
+https://mikhail2107.github.io/review_1/modal_call.html
