@@ -1,0 +1,48 @@
+@import url(style.css);
+
+.header-menu {
+    width: 100%;
+    display: flex;
+    margin: 24px;
+}
+.buttom-close {
+    margin: 24px;
+}
+.main-body {
+    width: 320px;
+    height: auto;
+}
+.main-forms {
+    margin: 0px 16px;
+}
+.main-form {
+     width: 288px;
+    height: 48px;
+    color: #B5B6BC;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    margin: 8px 0px;
+}
+.form-message {
+    height: 118px;
+    font-style: normal;
+    line-height: 14px;  
+}
+.main-body p{
+color: #7E7E82;
+}
+.main-body a{
+    color: #FF3E79;
+    font-size: 14px;
+}
+.button-send {
+    min-width: 40px;
+    color:white;
+    background-color: #FF3E79;
+    width: 136px;
+    height: 32px;
+    font-weight: bold;
+    vertical-align: middle;
+    float: right;
+}
