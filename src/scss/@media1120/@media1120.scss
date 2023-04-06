@@ -1,0 +1,66 @@
+$bgColor: #F8F8F8;
+$text: #1B1C21;
+$btnColor:#FF3E79;
+$borderColor:#41F6D7;
+$borderColorWhite:#EAEAEA;
+$bgLink:#FFFFFF;
+$textColor:#7E7E82;
+$boxShadow1:#454f7e;
+$boxShadow2:#0e1450;
+
+@media (min-width:1120px) {
+  .navigation {
+      display: grid;
+      grid-template-columns:0 0 300px;
+      float: right;
+      width: 70px;
+      height: 40px;
+      margin: 0;
+  }
+  .main {
+      float: left;
+  }
+  .navigation__basic, .navigation__service {
+      display:none;
+        }
+  .navigation__status span{
+      visibility: visible;
+      position:relative;
+      right: 150px;
+  }
+  .navigation__repair,
+  .navigation__checkstatus {
+      text-align: center;
+      color: $textColor;
+      line-height: 40px;
+      white-space: nowrap;
+      padding: 0 10px;
+      font-size: 16px;
+      font-weight: bold;
+  }
+  .navigation__repair
+   {
+      position: relative;
+      left: -150px;
+  }
+  .main__slider {
+      overflow:auto;
+  }
+  .main-about {
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+  .main__text {
+      width:100%;
+      height: auto;
+      float:left;
+
+  }
+  .main__read-more {
+    visibility: hidden;
+  }
+  .main__img-about{
+      width: 80%;
+  }
+}

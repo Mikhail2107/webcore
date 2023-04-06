@@ -1,0 +1,51 @@
+.navigation {
+	ul {
+		list-style: none;
+	}
+	span {
+		visibility: hidden;
+	}
+	li {
+		width: 40px;
+		height: 40px;
+		margin-right: 8px;
+	}
+}
+.navigation__basic {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: start;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.navigation__status {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: end;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.navigation__burger {
+	background: $btnColor url("../img/burger.svg") 50% 50% no-repeat;
+}
+.navigation__group {
+	padding: 0px 0px;
+}
+.navigation__call {
+	background: $btnColor url("../img/call.svg") 50% 50% no-repeat;
+}
+.navigation__chat {
+	background: $btnColor  url("../img/chat.svg") 50% 50% no-repeat;
+}
+.navigation__profile {
+	background: $btnColor  url("../img/profile.svg") 50% 50% no-repeat;
+}
+.navigation__repair {
+	background: $btnColor  url("../img/repair.svg") 50% 50% no-repeat;
+	border: none;
+}
+.navigation__checkstatus {
+	background: $btnColor  url("../img/checkstatus.svg") 50% 50% no-repeat;
+}

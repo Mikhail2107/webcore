@@ -1,0 +1,17 @@
+.button-styles {
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    border: 1px solid #FF3E79;
+}
+@keyframes button-style{
+  100% {opacity: 0.5;
+          transform:scale(0.8) ;}
+}
+.button-styles:hover {
+  animation-name: button-style;
+  animation-duration: 200ms;
+  animation-fill-mode: forwards;
+}

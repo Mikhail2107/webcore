@@ -1,0 +1,128 @@
+$bgColor: #F8F8F8;
+$text: #1B1C21;
+$btnColor:#FF3E79;
+$borderColor:#41F6D7;
+$borderColorWhite:#EAEAEA;
+$bgLink:#FFFFFF;
+$textColor:#7E7E82;
+$boxShadow1:#454f7e;
+$boxShadow2:#0e1450;
+.menu-body {
+  width: 320px;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: -2px 0px 4px rgb$boxShadow1, 16px 0px 52px $boxShadow2;
+  position: fixed;
+  float: left;
+}
+.header {
+  width: 100%;
+  list-style-type: none;
+}
+.header__menu {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+.header__menu span {
+  visibility: hidden;
+}
+.button__close {
+  background: $btnColor url("../img/close.svg") 50% 50% no-repeat;
+}
+.header__group {
+  background:  url("../img/Group.svg") no-repeat;
+}
+.header__search {
+  background:$btnColor url("../img/search.svg") 50% 50% no-repeat;
+  position: relative;
+  right:-24px;
+}
+.nav {
+  list-style-type: none;
+  padding: 0;
+}
+.nav li {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  padding: 16px 0px;
+}
+.nav__link{
+  text-decoration: none;
+  color: $text;
+  padding-left: 24px;
+}
+.nav__link--active{
+  text-decoration: none;
+  line-height: 24px;
+  color:$textColor;
+  margin: 0;
+  border-left: 4px solid $borderColor;
+}
+.navigation--position {
+  list-style-type: none;
+  position: relative;
+  bottom: -5%;
+  border: none;
+  visibility: visible;
+}
+.navigation--position span {
+  opacity: 0;
+}
+.footer__menu {
+  position: relative;
+  bottom: -5%;
+  left:20px;
+}
+.footer__contacts {
+  margin-bottom: 10px;
+}
+.footer__contacts a{
+  display: block;
+  text-decoration: none;
+  color: $text;
+}
+.footer__phone {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+}
+.footer__langueges {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+.lang {margin-right: 7px;
+  border-style: none;
+  background-color: inherit;
+  font-weight: bold;
+}
+.footer__lang--active {
+  color: $textColor;
+}
+.footer__langueges .lang:hover{
+ opacity: 0.3;
+  cursor: pointer;
+}
+.modal{
+  display: none;
+  position: absolute;
+  }
+  .menu--show {
+  display: block;
+  z-index: 1;
+  position: fixed;
+  }
+  .modal--show {
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  right: 0;
+  }
+  .main-body--style {
+  position: relative;
+  left:320px;
+  transition: left 3s;
+  }

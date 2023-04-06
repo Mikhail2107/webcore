@@ -1,0 +1,44 @@
+$bgColor: #F8F8F8;
+$text: #1B1C21;
+$btnColor:#FF3E79;
+$borderColor:#41F6D7;
+$borderColorWhite:#EAEAEA;
+$bgLink:#FFFFFF;
+$textColor:#7E7E82;
+$boxShadow1:#454f7e;
+$boxShadow2:#0e1450;
+
+@media (min-width:320px) and (max-width:549.98px) {
+  .navigation {
+      display: grid;
+      grid-template-columns: 1fr  0px 132px;
+      border-bottom: 1px solid $borderColor;
+  }
+  .navigation__service {
+      visibility: hidden;
+  }
+  .navigation {
+    display: grid;
+    grid-template-columns: 1fr 200px 150px;
+    border-bottom: 2px solid $borderColor;
+}
+.navigation__burger {
+    border-right: 1px solid $borderColorWhite;
+}
+.navigation__service {
+    border-right: 2px solid $borderColorWhite;
+    padding-right:16px;
+}
+.main-about {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+.main__text {
+    width:100%;
+    margin: 16px;
+}
+.main__img-about {
+    width: 50%;
+}
+}

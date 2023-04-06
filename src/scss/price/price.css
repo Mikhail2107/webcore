@@ -1,0 +1,113 @@
+.section-table {
+  margin: 0px;
+  background-color: #F8F8F8;
+}
+.section-table a {
+  margin: 16px;
+  height: 20px;
+  padding-right: 20px;
+  width: 300px;
+  text-decoration: none;
+  color:#1B1C21;
+  background: url('/src/img/dropdown.png') no-repeat 100% 50%;
+}
+.section-table a:hover {
+  text-decoration: underline;
+}
+.section-title {
+  width: 100%;
+  margin: 16px auto 16px 16px;
+  font-size: 16px;
+  background: #F8F8F8;
+  color: #7E7E82;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+}
+.button-sell {
+  border: none;
+  width: 119px;
+  font-size: 16px;
+  color: white;
+  background:#FF3E79 url('/src/img/drop.svg') no-repeat 90% 50%;
+  position: absolute;
+  right:25px;
+  bottom: 10px;
+}
+.table__contaner {
+  background-color: #F8F8F8;
+  font-family: inherit;
+  margin-right: 16px;
+}
+.table{
+  display: block;
+  width: 260px;
+  height: 200px;
+  background: #FFFFFF;
+  border:1px solid #EAEAEA;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-left: 16px;
+  padding-left: 16px;
+  font-family: inherit;
+}
+.table__cell {
+  color:#1B1C21;
+}
+.table__head {
+  display: table-header-group;
+  font-weight: bold;
+  padding-top: 16px;
+  color: #7E7E82;
+}
+.table__row {
+  margin-top: 16px;
+}
+.price__offer {
+  max-width: 420px;
+  margin: 16px;
+}
+
+@media (min-width:320px) and (max-width:767.98px){
+  .swiper-pagination {
+      position: relative;
+      margin: 20px;
+      bottom: 10px;
+  }
+  .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: #7E7E82;
+  }
+}
+@media (min-width:768px){
+  .swiper-pagination{
+      display: none;
+  }
+  .table__contaner {
+      display: block;
+      border-radius: 6px;
+  }
+  .table__head--visible {
+      display:none;
+  }
+  .table {
+      display:flex;
+      width: 100%;
+      height: auto;
+      padding: 16px;
+  }
+  .table__row {
+      display: inline;
+      margin: 5px;
+  }
+  .table__cell--descopt--hide {
+    visibility: hidden;
+    background-color: #7E7E82;
+     }
+     .table__descopt {
+      height: 60px;
+      background-color: #F8F8F8;
+      border: none;
+     }
+}

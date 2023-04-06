@@ -1,0 +1,118 @@
+$bgColor: #F8F8F8;
+$text: #1B1C21;
+$btnColor:#FF3E79;
+$borderColor:#41F6D7;
+$borderColorWhite:#EAEAEA;
+$bgLink:#FFFFFF;
+$textColor:#7E7E82;
+$boxShadow1:#454f7e;
+$boxShadow2:#0e1450;
+
+.section-body {
+  margin: 0px;
+}
+.section-body::before {
+  content: '';
+  clear: both;
+  display: block;
+}
+.section-title {
+  width: 100%;
+  height: 80px;
+  margin: 10px auto 16px 10px;
+  font-size: 16px;
+  background: linear-gradient(270deg, $bgColor 0%, $bgLink 98.61%);
+  color: $textColor;
+  text-transform: uppercase;
+}
+.mySwiper {
+  position: static;
+  width: 100%;
+  }
+.slide{
+  width: 240px;
+  box-sizing: border-box;
+  margin: 15px;
+  display:flex;
+  float:left;
+  background: #FFFFFF;
+  border:1px solid #EAEAEA;
+  border-radius: 6px;
+}
+.brands-image {
+  margin: auto auto auto 16px;
+}
+.slide-brands {
+  height: 70px;
+  cursor: pointer;
+}
+.slide-brands:hover {
+transform: scale(1.1);
+}
+.slide-tech {
+  height: 160px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.slide-tech:hover {
+cursor: pointer;
+transform: scale(1.1);
+box-shadow: 2px 2px 15px 1px rgb(33, 182, 223);
+}
+.brands__button {
+  margin: 16px 16px 16px auto;
+  float: right;
+  background:url(/src/img/dropdown.png) no-repeat 50% 50%;
+}
+.button {
+  border: none;
+  width: 150px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 35px;
+  padding-left: 20px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.button--hidden {
+  background:url(/src/img/icon_show.svg) no-repeat 10px 5px;
+}
+@media (min-width:320px) and (max-width:767.98px){
+  .swiper-pagination {
+  position: relative;
+  margin: 10px;
+  /* top:150px; */
+  /* bottom: 10px; */
+  }
+  .swiper-pagination-bullet {
+      width: 12px;
+      height: 12px;
+      background-color: #7E7E82;
+  }
+  .button--hidden {
+      display:none;
+  }
+}
+@media (min-width:768px){
+  .swiper-pagination{
+      display: none;
+  }
+  .slider {
+      display: block;
+      height: 180px;
+      overflow: hidden;
+  }
+  .slide {
+      margin: 12px 10px;
+  }
+  .button--visible{
+      background: url(/src/img/icon_hide.svg)  no-repeat 10px 5px;
+  }
+  .slider--show{
+      overflow:visible;
+      height: auto;
+  }
+}
+

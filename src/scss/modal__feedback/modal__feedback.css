@@ -1,0 +1,76 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.modal__feedback {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 99998;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: block;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .4s, visibility .4s;
+}
+
+.feedback__box {
+  position: absolute;
+  top:0;
+  right: 0;
+  max-width: 320px;
+  padding: 45px;
+  z-index: 1;
+  background-color: #FFFFFF;
+  transform: translateY(-100vh);
+  transition: transform .8s;
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #FF3E79 url(/src/img/close.svg) no-repeat 50% 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+.modal__feedback.show {
+  visibility: visible;
+  opacity: 1;
+}
+.modal__feedback.show .feedback__box {
+  transform: scale(1);
+}
+.feedback-forms {
+  margin: 0px 16px;
+}
+.feedback-form {
+  width: 288px;
+  height: 48px;
+  color: #B5B6BC;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  margin: 8px 0px;
+}
+.feedback-body p{
+  color: #7E7E82;
+  }
+  .feedback-body a{
+    color: #FF3E79;
+    font-size: 14px;
+}
+.feedback__button-send {
+  min-width: 40px;
+  color:white;
+  background-color: #FF3E79;
+  width: 136px;
+  height: 32px;
+  font-weight: bold;
+  vertical-align: middle;
+  float: right;
+}
