@@ -8,3 +8,5 @@ https://mikhail2107.github.io/webcore/Brands.html
 https://mikhail2107.github.io/webcore/feedback.html
 #
 https://mikhail2107.github.io/webcore/modal_call.html
+#
+https://mikhail2107.github.io/webcore/src/index.html
